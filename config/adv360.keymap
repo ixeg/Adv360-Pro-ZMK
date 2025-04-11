@@ -33,7 +33,7 @@
 &kp TAB    &kp Q      &kp W             &kp E    &kp R         &kp T   &none                                                             &none      &kp Y   &kp U        &kp I            &kp O     &kp P     &kp BSLH
 &kp ESC    &kp A      &kp S             &lt 2 D  &lt 3 F       &kp G   &none      &kp LCTRL      &kp LALT      &kp DEL    &kp RCTRL      &none      &kp H   &hm RG(J) J  &hm RIGHT_ALT K  &kp L     &kp SEMI  &kp SQT
 &kp LSHFT  &kp Z      &kp X             &kp C    &kp V         &kp B                             &kp HOME      &kp PG_UP                            &kp N   &kp M        &kp COMMA        &kp DOT   &kp FSLH  &kp RSHFT
-&mo 2      &kp GRAVE  &kp LEFT_CONTROL  &mo 2    &kp LEFT_GUI          &kp SPACE  &kp BACKSPACE  &tog 1        &kp PG_DN  &kp RIGHT_ALT  &kp ENTER          &mo 2        &kp DOWN         &kp LBKT  &kp RBKT  &mo 2
+&mo 2      &kp GRAVE  &kp LEFT_CONTROL  &mo 2    &kp LEFT_GUI          &kp SPACE  &kp BACKSPACE  &mo 1         &kp PG_DN  &kp RIGHT_ALT  &kp ENTER          &mo 2        &kp DOWN         &kp LBKT  &kp RBKT  &mo 2
             >;
         };
 
@@ -63,7 +63,7 @@
             display-name = "Mod";
             bindings = <
 &none           &bt BT_SEL 0  &bt BT_SEL 1   &bt BT_SEL 2      &bt BT_SEL 3  &bt BT_SEL 4  &none                                                  &trans           &none     &none                 &none                  &none      &none          &none
-&none           &none         &kp MINUS      &kp UNDER         &none         &none         &none                                                  &none            &kp EXCL  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp GRAVE  &none          &none
+&none           &none         &kp MINUS      &kp UNDER         &none         &none         &bootloader                                            &bootloader      &kp EXCL  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp GRAVE  &none          &none
 &studio_unlock  &none         &kp PLUS       &kp EQUAL         &none         &none         &bootloader  &bt BT_CLR  &none      &none  &none       &bl BL_ON        &kp HASH  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp TILDE  &kp PIPE       &none
 &none           &none         &kp LESS_THAN  &kp GREATER_THAN  &kp A         &none                                  &none      &none                               &none     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp AT     &kp BACKSLASH  &none
 &none           &none         &none          &none             &none                       &kp ENTER    &none       &none      &none  &bl BL_TOG  &rgb_ug RGB_TOG            &bl BL_INC            &bl BL_DEC             &none      &none          &none
