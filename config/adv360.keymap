@@ -29,11 +29,11 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&kp CAPS   &kp N1     &kp N2            &kp N3  &kp N4        &kp N5  &kp END                                                           &mo 3      &kp N6  &kp N7  &kp N8     &kp N9    &kp N0    &kp MINUS
-&kp TAB    &kp Q      &kp W             &kp E   &kp R         &kp T   &none                                                             &none      &kp Y   &kp U   &kp I      &kp O     &kp P     &kp BSLH
-&kp ESC    &kp A      &kp S             &kp D   &lt 3 F       &kp G   &none      &kp LCTRL      &kp LALT      &kp DEL    &kp RCTRL      &none      &kp H   &kp J   &kp K      &kp L     &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z      &kp X             &kp C   &kp V         &kp B                             &kp HOME      &kp PG_UP                            &kp N   &kp M   &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
-&mo 2      &kp GRAVE  &kp LEFT_CONTROL  &mo 2   &kp LEFT_GUI          &kp SPACE  &kp BACKSPACE  &tog 1        &kp PG_DN  &kp RIGHT_ALT  &kp ENTER          &mo 2   &kp DOWN   &kp LBKT  &kp RBKT  &mo 2
+&kp CAPS   &kp N1     &kp N2            &kp N3   &kp N4        &kp N5  &kp END                                                           &mo 3      &kp N6  &kp N7       &kp N8           &kp N9    &kp N0    &kp MINUS
+&kp TAB    &kp Q      &kp W             &kp E    &kp R         &kp T   &none                                                             &none      &kp Y   &kp U        &kp I            &kp O     &kp P     &kp BSLH
+&kp ESC    &kp A      &kp S             &lt 2 D  &lt 3 F       &kp G   &none      &kp LCTRL      &kp LALT      &kp DEL    &kp RCTRL      &none      &kp H   &hm RG(J) J  &hm RIGHT_ALT K  &kp L     &kp SEMI  &kp SQT
+&kp LSHFT  &kp Z      &kp X             &kp C    &kp V         &kp B                             &kp HOME      &kp PG_UP                            &kp N   &kp M        &kp COMMA        &kp DOT   &kp FSLH  &kp RSHFT
+&mo 2      &kp GRAVE  &kp LEFT_CONTROL  &mo 2    &kp LEFT_GUI          &kp SPACE  &kp BACKSPACE  &tog 1        &kp PG_DN  &kp RIGHT_ALT  &kp ENTER          &mo 2        &kp DOWN         &kp LBKT  &kp RBKT  &mo 2
             >;
         };
 
@@ -51,11 +51,11 @@
         fn {
             display-name = "Fn";
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4                &kp F5                 &kp F6  &tog 1                                      &mo 3   &kp F7          &kp F8          &kp F9        &kp F10    &kp F11  &kp F12
-&trans  &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &none                                       &none   &trans          &trans          &trans        &trans     &trans   &trans
-&trans  &trans  &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans  &none   &trans  &trans      &trans  &trans  &none   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &trans   &trans
-&trans  &trans  &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans                  &trans      &trans                  &trans          &kp MINUS       &kp UNDER     &kp TILDE  &trans   &trans
-&trans  &trans  &trans  &trans                &trans                         &trans  &trans  &trans      &trans  &trans  &trans                  &trans          &trans        &trans     &trans   &trans
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5         &kp F6  &tog 1                                      &mo 3   &kp F7          &kp F8             &kp F9           &kp F10     &kp F11  &kp F12
+&trans  &trans  &trans  &none   &none          &trans  &none                                       &none   &trans          &trans             &trans           &trans      &trans   &trans
+&trans  &trans  &trans  &none   &kp LA(SPACE)  &trans  &none   &trans  &trans      &trans  &trans  &none   &kp LEFT_ARROW  &kp DOWN_ARROW     &kp UP_ARROW     &kp RIGHT   &trans   &trans
+&trans  &trans  &trans  &none   &none          &trans                  &trans      &trans                  &kp C_PREVIOUS  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_NEXT  &trans   &trans
+&trans  &trans  &trans  &trans  &trans                 &trans  &trans  &trans      &trans  &trans  &trans                  &trans             &trans           &trans      &trans   &trans
             >;
         };
 
