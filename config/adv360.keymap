@@ -29,11 +29,11 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&kp CAPS   &kp N1     &kp N2            &kp N3   &kp N4        &kp N5  &kp END                                                           &mo 3      &kp N6  &kp N7       &kp N8           &kp N9    &kp N0    &kp MINUS
-&kp TAB    &kp Q      &kp W             &kp E    &kp R         &kp T   &none                                                             &none      &kp Y   &kp U        &kp I            &kp O     &kp P     &kp BSLH
-&kp ESC    &kp A      &kp S             &lt 2 D  &lt 3 F       &kp G   &none      &kp LCTRL      &kp LALT      &kp DEL    &kp RCTRL      &none      &kp H   &hm RG(J) J  &hm RIGHT_ALT K  &kp L     &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z      &kp X             &kp C    &kp V         &kp B                             &kp HOME      &kp PG_UP                            &kp N   &kp M        &kp COMMA        &kp DOT   &kp FSLH  &kp RSHFT
-&mo 2      &kp GRAVE  &kp LEFT_CONTROL  &mo 2    &kp LEFT_GUI          &kp SPACE  &kp BACKSPACE  &mo 1         &kp PG_DN  &kp RIGHT_ALT  &kp ENTER          &mo 2        &kp DOWN         &kp LBKT  &kp RBKT  &mo 2
+&kp CAPS   &kp N1     &kp N2            &kp N3   &kp N4        &kp N5  &kp END                                                           &mo 3      &kp N6  &kp N7           &kp N8           &kp N9    &kp N0    &kp MINUS
+&kp TAB    &kp Q      &kp W             &kp E    &kp R         &kp T   &none                                                             &none      &kp Y   &kp U            &kp I            &kp O     &kp P     &kp BSLH
+&kp ESC    &kp A      &kp S             &lt 2 D  &lt 3 F       &kp G   &none      &kp LCTRL      &kp LALT      &kp DEL    &kp RCTRL      &none      &kp H   &hm RIGHT_GUI J  &hm RIGHT_ALT K  &kp L     &kp SEMI  &kp SQT
+&kp LSHFT  &kp Z      &kp X             &kp C    &kp V         &kp B                             &kp HOME      &kp PG_UP                            &kp N   &kp M            &kp COMMA        &kp DOT   &kp FSLH  &kp RSHFT
+&mo 2      &kp GRAVE  &kp LEFT_CONTROL  &mo 2    &kp LEFT_GUI          &kp SPACE  &kp BACKSPACE  &mo 1         &kp PG_DN  &kp RIGHT_ALT  &kp ENTER          &mo 2            &kp DOWN         &kp LBKT  &kp RBKT  &mo 2
             >;
         };
 
